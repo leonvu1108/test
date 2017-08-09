@@ -570,3 +570,7 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
     color: #fdad1c !important;
 	}
 }
+
+.home-blog-post-img img {
+	width: 100%;
+}
