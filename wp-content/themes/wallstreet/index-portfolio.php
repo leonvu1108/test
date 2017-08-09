@@ -23,85 +23,49 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 		<div class="row">
 		<?php if($current_options['portfolio_image_one']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
-				<div class="home-portfolio-showcase">
-					<div class="home-portfolio-showcase-media">
-					
-						<div class="home-portfolio-showcase">
-							<div class="home-portfolio-showcase-overlay-inner">
-								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_one']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_one']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_one']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_one']);?></p>
-									<?php } ?>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="home-portfolio-showcase-detail">
+					<?php if($current_options['portfolio_title_one']){ ?>
+					<h4><?php echo esc_html($current_options['portfolio_title_one']); ?></h4>
+					<?php } ?>
+					<?php if($current_options['portfolio_description_one']){ ?>
+					<p><?php echo esc_html($current_options['portfolio_description_one']);?></p>
+					<?php } ?>
 				</div>
 			</div>
 			<?php } 
 			 if($current_options['portfolio_image_two']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
-				<div class="home-portfolio-showcase">
-					<div class="home-portfolio-showcase-media">
-					
-						<div class="home-portfolio-showcase">
-							<div class="home-portfolio-showcase-overlay-inner">
-								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_two']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_two']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_two']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_two']);?></p>
-									<?php } ?>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="home-portfolio-showcase-detail">
+					<?php if($current_options['portfolio_title_two']){ ?>
+					<h4><?php echo esc_html($current_options['portfolio_title_two']); ?></h4>
+					<?php } ?>
+					<?php if($current_options['portfolio_description_two']){ ?>
+					<p><?php echo esc_html($current_options['portfolio_description_two']);?></p>
+					<?php } ?>
 				</div>
 			</div>
 			<?php }
 			if($current_options['portfolio_image_three']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
-				<div class="home-portfolio-showcase">
-					<div class="home-portfolio-showcase-media">
-				
-						<div class="home-portfolio-showcase">
-							<div class="home-portfolio-showcase-overlay-inner">
-								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_three']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_three']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_three']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_three']);?></p>
-									<?php } ?>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="home-portfolio-showcase-detail">
+					<?php if($current_options['portfolio_title_three']){ ?>
+					<h4><?php echo esc_html($current_options['portfolio_title_three']); ?></h4>
+					<?php } ?>
+					<?php if($current_options['portfolio_description_three']){ ?>
+					<p><?php echo esc_html($current_options['portfolio_description_three']);?></p>
+					<?php } ?>
 				</div>
 			</div>
 				<?php }
 				if($current_options['portfolio_title_four']) { ?>
 			<div class="col-md-3 col-md-6 home-portfolio-area">
-				<div class="home-portfolio-showcase">
-					<div class="home-portfolio-showcase-media">
-				
-						<div class="home-portfolio-showcase">
-							<div class="home-portfolio-showcase-overlay-inner">
-								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_four']){ ?>
-									<h4><?php echo esc_html( $current_options['portfolio_title_four'] ); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_four']){ ?>
-									<p><?php echo esc_html( $current_options['portfolio_description_four'] );?></p>
-									<?php } ?>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="home-portfolio-showcase-detail">
+					<?php if($current_options['portfolio_title_four']){ ?>
+					<h4><?php echo esc_html( $current_options['portfolio_title_four'] ); ?></h4>
+					<?php } ?>
+					<?php if($current_options['portfolio_description_four']){ ?>
+					<p><?php echo esc_html( $current_options['portfolio_description_four'] );?></p>
+					<?php } ?>
 				</div>
 			</div>
 	<?php } ?>
