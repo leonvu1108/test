@@ -574,3 +574,36 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 .home-blog-post-img img {
 	width: 100%;
 }
+
+/*add custom css*/
+.home-blog-btn.home-blog-btn-details {
+	float: left;
+}
+.home-blog-btn.home-blog-btn-demo {
+	float: right;
+}
+.home-blog-info .clr_both {
+	clear: both;
+	content: "";
+}
+.home-blog-btn span {
+	background-color: #fdad1c !important;
+	color: #fff;
+	display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 10px 18px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    border-radius: 2px;
+}
+.home-blog-btn span:hover, .home-blog-btn a:hover {
+	background-color: #fff !important;
+	color: #fdad1c;
+	cursor: pointer;
+	border: 2px #fdad1c solid;
+	padding: 8px 16px;
+}
