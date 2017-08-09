@@ -57,15 +57,10 @@
                             if ($slider->get_view() === 'none' && $slides[$key]->get_title()) { ?>
                                 <div class="huge-it-caption slider-title">
                                     <div><?php echo $slides[$key]->get_title(); ?></div>
+                                    <div><?php echo $slides[$key]->get_description(); ?></div>
                                 </div>
                             <?php }
                         } ?>
-
-                        <?php if ($slider->get_view() === 'none' && $slides[$key]->get_description()) { ?>
-                            <div class="huge-it-caption slider-description">
-                                <div><?php echo $slides[$key]->get_description(); ?></div>
-                            </div>
-                        <?php } ?>
                     </li>
                     <?php
                     break;
@@ -118,15 +113,10 @@
                                     if ($slider->get_view() === 'none' && $slides[$key]->get_title()) { ?>
                                         <div class="huge-it-caption slider-title">
                                             <div><?php echo $slides[$key]->get_title(); ?></div>
+                                            <div><?php echo $slides[$key]->get_description(); ?></div>
                                         </div>
                                     <?php }
                                 } ?>
-
-                                <?php if($slider->get_view() === 'none' && $slides[ $key ]->get_show_description() && wp_strip_all_tags($last_posts["post_excerpt"])){ ?>
-                                    <div class="huge-it-caption slider-description">
-                                        <div><?php echo wp_strip_all_tags($last_posts["post_excerpt"]); ?></div>
-                                    </div>
-                                <?php } ?>
                             </li>
                             <?php
                         }
