@@ -2142,7 +2142,7 @@ if($slider->get_navigate_by() == 'thumbnail'){ ?> border-bottom: <?php echo Huge
     margin: <?php echo $margin;?>;
     border: <?php echo Hugeit_Slider_Options::get_title_border_size() . 'px solid #' . Hugeit_Slider_Options::get_title_border_color(); ?>;
     border-radius: <?php echo Hugeit_Slider_Options::get_title_border_radius() . 'px'; ?>;
-    <?php echo 'left: 0 !important; top: 50%; color:#ffffff; font-size: 35px;background: rgba(76, 76, 76, 0.7);text-transform: uppercase;text-align:center; '; ?>
+    <?php echo 'left: 0 !important; top: 50%; color:#ffffff; font-size: 35px;background: rgba(76, 76, 76, 0.7);text-transform: uppercase;text-align:center; margin: 0; padding: 0'; ?>
 }
 
 .slider-description {
