@@ -579,9 +579,14 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 /*products at main page*/
 .home-blog-btn.home-blog-btn-details {
 	float: left;
+	width: 45%;
+}
+.home-blog-btn.home-blog-btn-details span, .home-blog-btn.home-blog-btn-demo a {
+	width: 100%;
 }
 .home-blog-btn.home-blog-btn-demo {
 	float: right;
+	width: 45%;
 }
 .home-blog-info .clr_both {
 	clear: both;
@@ -608,18 +613,6 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 	border: 2px #fdad1c solid;
 	padding: 8px 16px;
 }
-
-/*.home-blog-info {
-	position: relative;
-	height: 100px;
-    overflow: hidden;
-}
-.home-blog-info .cnt {
-	position: absolute;
-	bottom: 30px;
-	left: 25px;
-    right: 25px;
-}*/
 .cnt-child {
 	display: none;
 }

@@ -36,25 +36,23 @@
                         ?>
                     </div>
                     <div class="home-blog-info">
-                        <div class="cnt">
-                            <div class="cnt-child">
-                                <div class="home-blog-post-detail">
-                                    <span class="date"><?php echo get_the_date(); ?> </span>
-                                    <span class="comment"><a href="<?php the_permalink(); ?>"><i class="fa fa-comment"></i><?php comments_number( 'No Comments', '1 comments', '% comments' ); ?></a></span>
-                                </div>
-                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                                <div class="home-blog-description"><p><?php echo get_the_excerpt(); ?></p></div>
-                            <!--<div class="home-blog-btn"><a href="<?php the_permalink(); ?>"><?php //_e('Read More','wallstreet'); ?></a></div>-->
-                            <?php $postid = get_the_ID(); ?>
+                        <div class="cnt-child">
+                            <div class="home-blog-post-detail">
+                                <span class="date"><?php echo get_the_date(); ?> </span>
+                                <span class="comment"><a href="<?php the_permalink(); ?>"><i class="fa fa-comment"></i><?php comments_number( 'No Comments', '1 comments', '% comments' ); ?></a></span>
                             </div>
-                            <div class="home-blog-btn home-blog-btn-details" id="home-blog-btn-details">
-                                <span><?php _e('Details','wallstreet'); ?></span>
-                            </div>
-                            <div class="home-blog-btn home-blog-btn-demo">
-                                <a target="_blank" href="<?php echo get_home_url() . '/websitedemo?sitedemoid=' . $postid; ?>"><?php _e('Demo','wallstreet'); ?></a>
-                            </div>
-                            <div class="clr_both"></div>
+                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                            <div class="home-blog-description"><p><?php echo get_the_excerpt(); ?></p></div>
+                        <!--<div class="home-blog-btn"><a href="<?php the_permalink(); ?>"><?php //_e('Read More','wallstreet'); ?></a></div>-->
+                        <?php $postid = get_the_ID(); ?>
                         </div>
+                        <div class="home-blog-btn home-blog-btn-details" id="home-blog-btn-details">
+                            <span><?php _e('Details','wallstreet'); ?></span>
+                        </div>
+                        <div class="home-blog-btn home-blog-btn-demo">
+                            <a target="_blank" href="<?php echo get_home_url() . '/websitedemo?sitedemoid=' . $postid; ?>"><?php _e('Demo','wallstreet'); ?></a>
+                        </div>
+                        <div class="clr_both"></div>
                     </div>
                 </div>
             </div>
