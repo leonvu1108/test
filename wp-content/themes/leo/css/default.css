@@ -575,12 +575,18 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 	width: 100%;
 }
 
-/*add custom css*/
+/*=========================== add custom css ===========================*/
+/*products at main page*/
 .home-blog-btn.home-blog-btn-details {
 	float: left;
+	width: 45%;
+}
+.home-blog-btn.home-blog-btn-details span, .home-blog-btn.home-blog-btn-demo a {
+	width: 100%;
 }
 .home-blog-btn.home-blog-btn-demo {
 	float: right;
+	width: 45%;
 }
 .home-blog-info .clr_both {
 	clear: both;
@@ -606,4 +612,7 @@ article.format-aside .aside { background: none repeat scroll 0 0 #d2e0f9; border
 	cursor: pointer;
 	border: 2px #fdad1c solid;
 	padding: 8px 16px;
+}
+.cnt-child {
+	display: none;
 }
