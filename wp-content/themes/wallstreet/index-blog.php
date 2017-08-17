@@ -50,7 +50,7 @@
                             <span><?php _e('Details','wallstreet'); ?></span>
                         </div>
                         <div class="home-blog-btn home-blog-btn-demo">
-                            <a target="_blank" href="<?php echo get_home_url() . '/websitedemo?sitedemoid=' . $postid; ?>"><?php _e('Demo','wallstreet'); ?></a>
+                            <a target="_blank" href="<?php echo get_home_url() . '/websitedemo/' . $postid; ?>"><?php _e('Demo','wallstreet'); ?></a>
                         </div>
                         <div class="clr_both"></div>
                     </div>
